@@ -2,7 +2,7 @@
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_NOU9wI4KEe6hFJclY3Fo3g" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_NOU9wY4KEe6hFJclY3Fo3g" bindingContexts="_NOW0ZI4KEe6hFJclY3Fo3g">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;WinCalculator.java&quot; tooltip=&quot;WinFormsCalculator/src/client/WinCalculator.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WinFormsCalculator/src/client/WinCalculator.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;WinCalculaor.java&quot; tooltip=&quot;WinFormsCalculator/src/client/WinCalculaor.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WinFormsCalculator/src/client/WinCalculaor.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;JFrameCalculator.java&quot; tooltip=&quot;SwingCalculatorV2/src/client/JFrameCalculator.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SwingCalculatorV2/src/client/JFrameCalculator.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;GuiCalculator.java&quot; tooltip=&quot;SwingCalculator/src/client/GuiCalculator.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SwingCalculator/src/client/GuiCalculator.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JFrameCalculator.java&quot; tooltip=&quot;SwingCalculator/src/client/JFrameCalculator.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SwingCalculator/src/client/JFrameCalculator.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Calculator.java&quot; tooltip=&quot;SwingCalculatorV2/src/bus/Calculator.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SwingCalculatorV2/src/bus/Calculator.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;Runnable.class&quot; tooltip=&quot;java.lang.Runnable&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=SwingCalculatorV2/C:\/Users\/Expo\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&amp;lt;java.lang(Runnable.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_NOU9wY4KEe6hFJclY3Fo3g" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_NOU9wo4KEe6hFJclY3Fo3g" label="%trimmedwindow.label.eclipseSDK" x="305" y="-37" width="1382" height="784">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_NOU9wY4KEe6hFJclY3Fo3g" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_NOU9wo4KEe6hFJclY3Fo3g" label="%trimmedwindow.label.eclipseSDK" x="304" y="-32" width="1382" height="784">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -10,7 +10,7 @@
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1709411696378"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
-    <tags>shellMinimized</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_NOU9wo4KEe6hFJclY3Fo3g" selectedElement="_NOU9w44KEe6hFJclY3Fo3g" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_NOU9w44KEe6hFJclY3Fo3g" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_NOU9xI4KEe6hFJclY3Fo3g">
         <children xsi:type="advanced:Perspective" xmi:id="_NOU9xI4KEe6hFJclY3Fo3g" elementId="org.eclipse.jst.j2ee.J2EEPerspective.&lt;Java EE>" selectedElement="_NOU9xY4KEe6hFJclY3Fo3g" label="&lt;Java EE>" iconURI="platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif">
@@ -78,7 +78,6 @@
           <children xsi:type="basic:PartSashContainer" xmi:id="_NOU9xY4KEe6hFJclY3Fo3g" selectedElement="_NOU9xo4KEe6hFJclY3Fo3g" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_NOU9xo4KEe6hFJclY3Fo3g" elementId="topLeft" containerData="1449" selectedElement="_NOU9x44KEe6hFJclY3Fo3g">
               <tags>active</tags>
-              <tags>noFocus</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_NOU9x44KEe6hFJclY3Fo3g" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_NOVmVY4KEe6hFJclY3Fo3g" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
@@ -208,15 +207,9 @@
           <tags>persp.newWizSC:org.eclipse.ui.editors.wizards.UntitledTextFileWizard</tags>
           <tags>persp.perspSC:org.eclipse.jdt.ui.JavaBrowsingPerspective</tags>
           <tags>persp.perspSC:org.eclipse.debug.ui.DebugPerspective</tags>
-          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/onboarding_jperspective.png</tags>
-          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
           <tags>persp.showIn:org.eclipse.jdt.ui.PackageExplorer</tags>
           <tags>persp.showIn:org.eclipse.team.ui.GenericHistoryView</tags>
           <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>
-          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
-          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
-          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
-          <tags>persp.editorOnboardingCommand:Open Type$$$Ctrl+Shift+T</tags>
           <tags>persp.viewSC:org.eclipse.mylyn.tasks.ui.views.tasks</tags>
           <tags>persp.newWizSC:org.eclipse.mylyn.tasks.ui.wizards.new.repository.task</tags>
           <tags>persp.actionSet:org.eclipse.debug.ui.breakpointActionSet</tags>
@@ -231,6 +224,12 @@
           <tags>persp.newWizSC:org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard</tags>
           <tags>persp.actionSet:org.eclipse.jdt.junit.JUnitActionSet</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
+          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/onboarding_jperspective.png</tags>
+          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
+          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
+          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
+          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
+          <tags>persp.editorOnboardingCommand:Open Type$$$Ctrl+Shift+T</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_VLrR5djUEe6xu4KBeEWgTA" selectedElement="_VLrR5tjUEe6xu4KBeEWgTA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_VLrR5tjUEe6xu4KBeEWgTA" containerData="2500" selectedElement="_VLrR59jUEe6xu4KBeEWgTA">
               <children xsi:type="basic:PartStack" xmi:id="_VLrR59jUEe6xu4KBeEWgTA" elementId="left" containerData="6000" selectedElement="_VLrR6NjUEe6xu4KBeEWgTA">
@@ -378,7 +377,7 @@
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_Y_38QNjUEe6xu4KBeEWgTA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="WinCalculator.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;WinCalculator.java&quot; partName=&quot;WinCalculator.java&quot; title=&quot;WinCalculator.java&quot; tooltip=&quot;WinFormsCalculator/src/client/WinCalculator.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WinFormsCalculator/src/client/WinCalculator.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3725&quot; selectionTopPixel=&quot;2056&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;WinCalculator.java&quot; partName=&quot;WinCalculator.java&quot; title=&quot;WinCalculator.java&quot; tooltip=&quot;WinFormsCalculator/src/client/WinCalculator.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WinFormsCalculator/src/client/WinCalculator.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3728&quot; selectionTopPixel=&quot;1451&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -596,7 +595,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NOWMIY4KEe6hFJclY3Fo3g" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_VBe0ENjUEe6xu4KBeEWgTA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_NOZ5eI4KEe6hFJclY3Fo3g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Co3Bh9jVEe6J0vmON3NQKg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_NOZ5eI4KEe6hFJclY3Fo3g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NOWML44KEe6hFJclY3Fo3g" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -604,14 +603,14 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NOWMMY4KEe6hFJclY3Fo3g" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_VBe0FtjUEe6xu4KBeEWgTA" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_NOZ3dI4KEe6hFJclY3Fo3g"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_VBe0F9jUEe6xu4KBeEWgTA" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_NOZ4FY4KEe6hFJclY3Fo3g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_CpAygNjVEe6J0vmON3NQKg" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_NOZ3dI4KEe6hFJclY3Fo3g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_CpAygdjVEe6J0vmON3NQKg" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_NOZ4FY4KEe6hFJclY3Fo3g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NOWMNY4KEe6hFJclY3Fo3g" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_NOWMNo4KEe6hFJclY3Fo3g" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_VUdacNjUEe6xu4KBeEWgTA" elementId="org.eclipse.jdt.ui.JavaElementCreationActionSet">
+      <children xsi:type="menu:ToolBar" xmi:id="_VUdacNjUEe6xu4KBeEWgTA" elementId="org.eclipse.jdt.ui.JavaElementCreationActionSet" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NOWMcY4KEe6hFJclY3Fo3g" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -638,7 +637,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NOWMio4KEe6hFJclY3Fo3g" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_VBe0HdjUEe6xu4KBeEWgTA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_NOZ5H44KEe6hFJclY3Fo3g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_CpAyh9jVEe6J0vmON3NQKg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_NOZ5H44KEe6hFJclY3Fo3g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NOWMlY4KEe6hFJclY3Fo3g" elementId="org.eclipse.wb.core.guiEditor" visible="false">
         <tags>Draggable</tags>
