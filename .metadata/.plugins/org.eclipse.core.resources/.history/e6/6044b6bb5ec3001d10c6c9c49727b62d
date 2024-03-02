@@ -1,0 +1,14 @@
+package bus;
+
+public class Calculator {
+	public int n1, n2;
+	
+	
+	public int add() {
+		return n1+n2;
+	}
+	
+	public int sub() {
+		return n1-n2;
+	}
+}

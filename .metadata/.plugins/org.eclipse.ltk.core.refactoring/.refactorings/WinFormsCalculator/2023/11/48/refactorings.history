@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;client.WinCalculaor&apos; to &apos;WinCalculator&apos;&#x0D;&#x0A;- Original project: &apos;WinFormsCalculator&apos;&#x0D;&#x0A;- Original element: &apos;client.WinCalculaor&apos;&#x0D;&#x0A;- Renamed element: &apos;client.WinCalculator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WinCalculaor&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;client{WinCalculaor.java[WinCalculaor" matchStrategy="1" name="WinCalculator" qualified="false" references="true" similarDeclarations="false" stamp="1701187431284" textual="false" version="1.0"/>
+</session>

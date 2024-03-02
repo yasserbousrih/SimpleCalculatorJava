@@ -1,0 +1,121 @@
+package client;
+
+import java.awt.EventQueue;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
+
+public class JFrameCalculator {
+
+	private JFrame frame;
+	private JTextField textFieldN1;
+	private JTextField textFieldN2;
+	private JTextField textFieldResult;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					JFrameCalculator window = new JFrameCalculator();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public JFrameCalculator() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Enter first number:");
+		lblNewLabel.setBounds(35, 31, 126, 16);
+		frame.getContentPane().add(lblNewLabel);
+		
+		JLabel lblEnterSecondNumber = new JLabel("Enter second number:");
+		lblEnterSecondNumber.setBounds(35, 74, 151, 16);
+		frame.getContentPane().add(lblEnterSecondNumber);
+		
+		textFieldN1 = new JTextField();
+		textFieldN1.setBounds(182, 26, 130, 26);
+		frame.getContentPane().add(textFieldN1);
+		textFieldN1.setColumns(10);
+		
+		textFieldN2 = new JTextField();
+		textFieldN2.setColumns(10);
+		textFieldN2.setBounds(182, 69, 130, 26);
+		frame.getContentPane().add(textFieldN2);
+		
+		JButton btnAdd = new JButton("ADD");
+		btnAdd.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+					int n1 = Integer.parseInt(textFieldN1.getText());
+					int n2 = Integer.parseInt(textFieldN2.getText());
+					int result = n1+n2;
+					textFieldResult.setText(Integer.toString(result));
+				} catch(Exception ex) {
+					JOptionPane.showMessageDialog(null, "Please enter a valid number");
+					textFieldN1.setText("");
+					textFieldN2.setText("");
+					textFieldN1.requestFocus();
+				}
+			}
+		});
+		btnAdd.setBounds(35, 183, 117, 29);
+		frame.getContentPane().add(btnAdd);
+		
+		JButton btnNewButton = new JButton("Exit");
+		btnNewButton.setBounds(304, 183, 117, 29);
+		frame.getContentPane().add(btnNewButton);
+		
+		textFieldResult = new JTextField();
+		textFieldResult.setColumns(10);
+		textFieldResult.setBounds(182, 117, 130, 26);
+		frame.getContentPane().add(textFieldResult);
+		
+		JLabel lblResult = new JLabel("Result:");
+		lblResult.setBounds(35, 122, 151, 16);
+		frame.getContentPane().add(lblResult);
+		
+		JButton btnSub = new JButton("SUB");
+		btnSub.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+					int n1 = Integer.parseInt(textFieldN1.getText());
+					int n2 = Integer.parseInt(textFieldN2.getText());
+					int result = n1 - n2;
+					textFieldResult.setText(Integer.toString(result));
+				} catch(Exception ex) {
+					JOptionPane.showMessageDialog(null, "Please enter a valid number");
+					textFieldN1.setText("");
+					textFieldN2.setText("");
+					textFieldN1.requestFocus();
+				}
+			}
+		});
+		btnSub.setBounds(164, 183, 117, 29);
+		frame.getContentPane().add(btnSub);
+	}
+}
